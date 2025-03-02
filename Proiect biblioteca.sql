@@ -37,7 +37,7 @@ INSERT INTO carti(titlu, autor_id, gen, data_publicarii) VALUES
 ('Doctor Faustus', 1, 'Beletristica', '1947-01-03'),
 ('Divanul', 2, 'Didactico-Moralizator', '1698-01-04');
 
-INSERT INTO imprumuturi( carte_id, data_imprumut, data_returnare, cititor) VALUES
+INSERT INTO imprumuturi(carte_id, data_imprumut, data_returnare, cititor) VALUES
 (1, '2024-02-08', '2024-03-09', 'Tudor Andrei'),
 (2, '2025-01-03', '2025-02-01', 'Popa Daniel'),
 (4, '2023-04-20', '2023-05-18', 'Alexandru Cristian');
