@@ -9,4 +9,4 @@ Description : Creating a database for managing a library with tables for books, 
 -Aggregate Functions: Like COUNT() for counting the number of loans per reader, MIN() and MAX() for finding the oldest and newest book publication dates.
 -Foreign Keys: To maintain relationships between the books, authors, and loans tables, ensuring referential integrity.
 
-##2. Project SQL - EmployeeManagement
+##2. Project SQL - EmployeeManagement - Trigger and Stored Procedure.
