@@ -1,3 +1,15 @@
+##Project Description
+This project demonstrates the use of MySQL Stored Procedures and Triggers for managing employee salary data within an organization.
+
+Key Features:
+Stored Procedure: A stored procedure named GetEmployeesByDepartment that retrieves a list of employees based on the department name, allowing dynamic data retrieval using input parameters.
+Trigger: A trigger that automatically updates the end_date of an employee's previous salary record when a new salary is inserted. This ensures that the most recent salary remains active and the previous salary records are properly closed.
+Technologies Used:
+MySQL (for database management)
+SQL (for writing stored procedures and triggers)
+Purpose:
+This project showcases how to implement automatic data management using triggers and how to encapsulate complex logic into reusable stored procedures for efficient querying in a relational database.##
+
 CREATE DATABASE EmployeeManagement;
 USE EmployeeManagement;
 
